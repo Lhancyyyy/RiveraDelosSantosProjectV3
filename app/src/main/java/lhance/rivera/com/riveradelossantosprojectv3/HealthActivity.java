@@ -36,8 +36,8 @@ public class HealthActivity extends AppCompatActivity {
         Intent i = new Intent(this, TriviaExercise.class);
         startActivity(i);
     }
-    public void backButton (View v) {
-        Intent i = new Intent(this, OpeningPage.class);
+    public void Logout (View v) {
+        Intent i = new Intent(this, LoginPage.class);
         startActivity(i);
     }
 }
