@@ -36,4 +36,5 @@ public class HealthActivity extends AppCompatActivity {
         Intent i = new Intent(this, TriviaExercise.class);
         startActivity(i);
     }
+    
 }

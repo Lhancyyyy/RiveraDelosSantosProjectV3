@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.107"
         app:srcCompat="@drawable/bg" />
 
     <ImageView
@@ -73,7 +73,8 @@
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="180dp"
+            style="@style/Buttons"
+            android:layout_width="247dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
@@ -89,7 +90,8 @@
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="180dp"
+            style="@style/Buttons"
+            android:layout_width="247dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginTop="8dp"
@@ -101,11 +103,12 @@
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button8"
-            app:layout_constraintVertical_bias="0.075" />
+            app:layout_constraintVertical_bias="0.068" />
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="180dp"
+            style="@style/Buttons"
+            android:layout_width="247dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginTop="13dp"
@@ -120,7 +123,8 @@
 
         <Button
             android:id="@+id/button7"
-            android:layout_width="180dp"
+            style="@style/Buttons"
+            android:layout_width="247dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="236dp"
             android:layout_marginTop="13dp"
@@ -135,7 +139,8 @@
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="180dp"
+            style="@style/Buttons"
+            android:layout_width="247dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginTop="30dp"
@@ -148,6 +153,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView13"
             app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/ExitLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="Logout"
+            android:text="Logout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.957" />
 
     </android.support.constraint.ConstraintLayout>
 
