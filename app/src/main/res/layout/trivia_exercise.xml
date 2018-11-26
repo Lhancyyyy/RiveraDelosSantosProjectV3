@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lhance.rivera.com.riveradelossantosprojectv3.TriviaExercise">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="422dp"
+        android:layout_height="724dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bg" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="392dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo1" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="83dp"
+            android:layout_height="39dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="303dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="303dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
+            android:onClick="onBackClick"
+            android:text="Back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.987" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="305dp"
+            android:layout_height="431dp"
+            android:layout_marginBottom="41dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginLeft="53dp"
+            android:layout_marginRight="53dp"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="125dp"
+            android:background="@android:color/holo_orange_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="90dp"
+                    android:paddingRight="90dp"
+                    android:text="EXERCISE :"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="176dp"
+                    tools:layout_editor_absoluteY="161dp" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="141dp"
+                    app:srcCompat="@drawable/exer"
+                    tools:layout_editor_absoluteX="43dp"
+                    tools:layout_editor_absoluteY="178dp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:gravity="center_vertical"
+                    android:text="Many people exercise to control weight and get in better physical condition to become more healthy or physically attractive, but exercise and stress management are also closely linked. Exercise provides a distraction from stressful situations, as well as an outlet for frustrations, and gives you a lift via endorphins as well. This article can tell you more about the stress management benefits of exercise, and help you get more active in your daily life."
+                    android:textColor="@android:color/background_dark"
+                    android:textIsSelectable="false" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
